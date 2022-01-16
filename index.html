@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="/assets/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/owl/owl.theme.default.min.css">
+    
+
+    <!-- Responsividade-->
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
     <title>GameFLIX</title>
 </head>
 <body>
@@ -17,11 +26,22 @@
                 <a href="#">Multiplayer</a>
                 <a href="#">Mundo aberto</a>
             </nav>
+            <div class="ferramentas">
+                <a href="#">
+                    <i class="fas fa-bell" id="sino"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-user-circle" id="user"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-search" id="search"></i>
+                </a>
+            </div>
         </div>
     </header>
 
     <main> <!-- Conteúdo principal-->
-        <div class="filme-principal">
+        <div class="jogo-principal">
             <div class="container">
                 <h3 class="titulo">VALORANT</h3>
                 <p class="descricao">Valorant é um jogo eletrônico multijogador gratuito para 
@@ -41,7 +61,57 @@
         </div>
     </main>
 
-    <script src="assets/js/scripts.js"></script>
+    <divv class="carrosel-jogos">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini1.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini2.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini3.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini4.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini5.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini6.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini7.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini8.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/mini9.jpg" alt="" srcset="">
+
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="/assets/img/csgo.jpg" alt="" srcset="">
+
+                </div>
+        </div>
+
+    </divv>
+
+
+
+    <script src="/assets/js/owl/jquery.min.js"></script>
+    <script src="/assets/js/owl/owl.carousel.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/1434c64e71.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -46,9 +46,9 @@ nav {
     margin-left: 60px;
 }
 
-/*Filme principal*/
+/*jogo principal*/
 
-.filme-principal{
+.jogo-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/assets/img/back-principal.jpg');
     
@@ -61,7 +61,7 @@ nav {
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.jogo-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
@@ -98,6 +98,47 @@ nav {
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.jogo-principal .container{
     width: 30%;
+}
+
+.box-jogo{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-jogos{
+    margin-top: 5px;
+}
+
+.ferramentas{
+    margin-left: 700px;
+    padding: 20px;
+}
+
+#sino{
+    color: aliceblue;
+    margin-right: 30px;
+}
+
+#sino:hover{
+    color: #aaa;
+}
+
+#user{
+    color: antiquewhite;
+    margin-right: 30px;
+}
+
+#user:hover{
+    color: #aaa;
+}
+
+#search{
+    color: aliceblue;
+}
+
+#search:hover{
+    color: #aaa;
 }
